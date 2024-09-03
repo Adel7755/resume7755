@@ -1,0 +1,151 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+font-size: 15px;
+font-family: 'Bona Nova SC',sans-serif;
+background: #fffefe;
+color: rgb(58, 58, 56);
+}
+@media ( max-width: 500px) {
+    .info {
+        font-size: 1,5rem;
+        
+        text-align: center;
+    }
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 15px;
+}
+.avatar {
+    width: 200px;
+    box-shadow: 7px 5px 5px 5px;
+    border-radius: 30px;
+    text-align: center;
+}
+.cardp p {
+    margin: 0%;
+
+}
+.info {
+    display: block;
+    text-align: center;
+}
+
+
+
+.info h1 {
+    font-style: italic;
+    background: #0db9e8;
+    
+}
+.info h4 {
+    color: #0d82a3;
+}
+.hobi{
+   padding-top: 1px;
+    border-radius: 20px;
+    background: #b19fdf;
+    color: rgb(36, 32, 32);
+    padding-bottom: 15px;
+}
+.hobi h2{
+    color:#0d82a3;;
+}
+
+.rabota h1{
+    color:#0d82a3;
+    
+}
+.forma h1{
+    color: #0d82a3;
+    text-align: center;
+}
+
+.forma{
+    border-width: 2px;
+    background: LightYellow  ;
+    border-radius: 20px;
+}
+.forma-group label {
+    display: block;
+font-size:14px;
+color: rgb(22, 109, 180);
+
+
+}
+.forma-group input, .forma-group textarea {
+    width: 80%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #0d82a3;
+    color: #0d82a3;
+   padding: 5px;
+   outline: none;
+   font-family: inherit;
+}
+
+.forma-row {
+display: flex;
+margin-bottom: 5px;
+}
+.forma-row, .forma-group {
+    width: 90%;
+    margin-right: 90px;
+}
+
+.rabota{
+    padding-top: 1px;
+    border-radius: 20px;
+    background: #b7ffcc;
+    color: rgb(36, 32, 32);
+    padding-bottom: 15px;
+}
+.table {
+    width: 100%;
+    
+}
+.table td {
+    text-align: left;
+    padding-bottom: 10px;
+
+}
+.table th {
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.table td:nth-child(1) {
+    color:rgb(146, 40, 26);
+}
+
+a {
+    color:#a8c7fa;
+    text-decoration: none;
+    
+    
+}
+a:hover {
+    color: rgb(39, 96, 170);
+    font-size: 20px;
+}
+.btn {
+    background: rgb(27, 121, 215);
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: .8;
+    color: orange;
+}
+
+
+
+
